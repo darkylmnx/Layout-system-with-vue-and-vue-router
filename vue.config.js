@@ -1,3 +1,4 @@
 module.exports = {
-  outputDir: __dirname + "/docs"
+  outputDir: "docs",
+  baseUrl: "/Layout-system-with-vue-and-vue-router/"
 };
