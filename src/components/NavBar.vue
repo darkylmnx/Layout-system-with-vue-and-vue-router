@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar is-light">
     <div class="navbar-brand">
-      <a class="navbar-item" href="/">
+      <div class="navbar-item" href="/">
         Vue multi layouts
-      </a>
+      </div>
 
       <a class="navbar-burger" @click="open = !open">
         <span aria-hidden="true"></span>
