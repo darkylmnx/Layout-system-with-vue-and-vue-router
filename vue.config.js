@@ -1,3 +1,3 @@
 module.exports = {
-  outputDir: __dirname + "/master"
+  outputDir: __dirname + "/docs"
 };
