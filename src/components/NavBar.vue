@@ -15,17 +15,17 @@
     <div class="navbar-menu" :class="{'is-active': open}">
       <div class="navbar-start">
         <div class="navbar-item">
-          <router-link class="button is-primary" :to="{name: 'about'}" @click.native="open = fasle">
+          <router-link class="button is-primary" :to="{name: 'about'}" @click.native="open = false">
             About
           </router-link>
         </div>
         <div class="navbar-item">
-          <router-link class="button is-primary" to="/" @click.native="open = fasle">
+          <router-link class="button is-primary" to="/" @click.native="open = false">
             Posts
           </router-link>
         </div>
         <div class="navbar-item">
-          <router-link class="button is-primary" :to="{name: 'photos'}" @click.native="open = fasle">
+          <router-link class="button is-primary" :to="{name: 'photos'}" @click.native="open = false">
             Photos
           </router-link>
         </div>
@@ -33,17 +33,17 @@
 
       <div class="navbar-end">
         <div class="navbar-item">
-          <a class="button is-info" href="https://itnext.io/@arieldi" @click="open = fasle">
+          <a class="button is-info" href="https://itnext.io/@arieldi" @click="open = false">
             @darkylmnx
           </a>
         </div>
         <div class="navbar-item">
-          <a class="button is-info" href="https://foreignrap.com/" @click="open = fasle">
+          <a class="button is-info" href="https://foreignrap.com/" @click="open = false">
             Foreignrap
           </a>
         </div>
         <div class="navbar-item">
-          <a class="button is-info" href="http://mustsee.earth" @click="open = fasle">
+          <a class="button is-info" href="http://mustsee.earth" @click="open = false">
             Like traveling ? Click
           </a>
         </div>
